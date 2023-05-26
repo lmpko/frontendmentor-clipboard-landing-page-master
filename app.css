@@ -2,6 +2,10 @@
     --primary-color: hsl(171, 66%, 44%);
     --secondary-color: hsl(233, 100%, 69%);
 
+    --primary-color-darker: hsl(171, 66%, 37%);
+    --secondary-color-darker: hsl(233, 61%, 56%);
+
+
     --tertiary-color: hsl(210, 10%, 33%);
     --fouthary-color: hsl(201, 11%, 66%);
 }
@@ -10,4 +14,68 @@ body{
     font-size: 1.125rem ;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
+    margin: 0;
+}
+
+.btn{
+    width: 100%;
+    padding: .9375rem;
+    border-radius: 3.125rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.btn-ios{
+    background-color: var(--primary-color);
+    border-bottom: .25rem solid var(--primary-color-darker);
+    box-shadow: 0 .3125rem .9375rem 0 var(--primary-color);
+    margin-bottom: .9375rem;
+}
+
+.btn-mac{
+    background-color: var(--secondary-color);
+    border-bottom: .25rem solid var(--secondary-color-darker);
+    box-shadow: 0 .3125rem .9375rem 0 var(--secondary-color);
+}
+
+p{
+    color: var(--fouthary-color);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-menu{
+    display: flex;
+    margin: 0;
+}
+
+.social-menu li{
+    padding: .9375rem ;
+}
+
+.web-links-menu a{
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+.web-links-menu li{
+    padding: .625rem 0;
+}
+
+footer{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5625rem ;
+}
+
+footer .logo{
+    width: 4.0625rem ;
 }
