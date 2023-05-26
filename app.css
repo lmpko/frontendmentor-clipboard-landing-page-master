@@ -37,6 +37,15 @@ img{
     font-weight: 600;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
+li a:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
 .btn-ios{
     background-color: var(--primary-color);
     border-bottom: .25rem solid var(--primary-color-darker);
